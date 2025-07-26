@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+*.env
+*.env.*
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI static files (if generated dynamically)
+staticfiles/
