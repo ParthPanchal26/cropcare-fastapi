@@ -94,6 +94,9 @@ def explain_plant_disease(predicted_label: str, user_text: str = None) -> str:
     except Exception as e:
         return f"Error fetching explanation: {e}"
 
+@app.get("/get")
+def get_data():
+    return {"message": "Hello From FASTAPI"}
 
 @app.post("/upload")
 async def predict(file: UploadFile = File(...), text: str = Form(None)):
